@@ -1,0 +1,91 @@
+/* Основной цвет текста color #212121 */
+/* Вторичный #757575*/
+/* Белый #FFFFFF */
+/* Акцент #2196F3 */
+
+/* Цвет основного фона #E5E5E5; */
+/* Вторичный цвет фона #2F303A */
+/* Цвет вона "Наша команда" F5F4FA */
+
+/* body */
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+
+/* Убераем разривы между блоками */
+* {
+  margin: 0px;
+}
+
+/* Убираем точки с боку списков */
+li {
+  list-style-type: none;
+}
+ul {
+  /* Отступ слева в браузере IE и Opera */
+  margin-left: 0;
+  /* Отступ слева в браузере Firefox, Safari, Chrome */
+  padding-left: 0;
+}
+
+/* Отменяем подчеркивание у ссылках */
+a {
+  text-decoration: none;
+}
+/* header цвет ссылок и ховеры */
+.sait-nav a {
+  color: #212121;
+}
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+  color: #2196f3;
+}
+.link-header .link {
+  color: #757575;
+}
+.link-header .link:hover,
+.link-header .link:focus {
+  color: #2196f3;
+}
+
+/* Logo */
+.logo:hover {
+  color: #2196f3;
+}
+.logo {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero-title {
+  color: #ffffff;
+}
+.hero {
+  background-color: #2f303a;
+}
+
+/* Section */
+.section-title {
+  color: #212121;
+}
+/* Advantage-приемущества */
+.advantage .title {
+  color: #212121;
+}
+
+/* People-люди */
+.people .title {
+  color: #212121;
+}
+.team {
+  background-color: #f5f4fa;
+}
+/* Footer */
+.footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.link-footer .link a {
+  color: rgba(255, 255, 255, 0.6);
+}
