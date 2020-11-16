@@ -1,0 +1,78 @@
+/* Основной цвет #212121 */
+/* Вторычний цвет #757575 */
+/* Цвет белый #ffffff */
+/* Акцент #2196F3 */
+/* Цвет фона #E5E5E5*/
+/* Вторычний цвет фона 2F303A*/
+/* Убирает отсутпи */
+* {
+  margin: 0px;
+}
+/* Body */
+body {
+  color: #212121;
+  background-color: #e5e5e5;
+}
+
+/* Убирает подчеркивание ссылок */
+a {
+  text-decoration: none;
+}
+
+/* Удаляет точки возли списков */
+li {
+  list-style: none;
+}
+ul {
+  padding-left: 0px;
+}
+
+/* Header */
+header {
+  background-color: #ffffff;
+}
+/* Цвет и ховери ссылок */
+.sait-nav a {
+  color: #212121;
+}
+.sait-nav .link:hover,
+.sait-nav .link:focus a {
+  color: #2196f3;
+}
+.sait-nav .link-header a {
+  color: #757575;
+}
+.link-header .link:hover,
+.link-header .link:focus {
+  color: #2196f3;
+}
+
+/* Logo */
+.logo:hover a {
+  color: #2196f3;
+}
+.logo {
+  color: #2196f3;
+}
+
+/* Filter-фыльтри */
+.filter .link a {
+  color: #212121;
+}
+.filter .link:hover a {
+  color: #ffffff;
+}
+
+/* Project-проекты */
+.project .text {
+  color: #757575;
+}
+
+/* Footer */
+.footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.link-footer .link a {
+  color: rgba(255, 255, 255, 0.6);
+}
