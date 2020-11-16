@@ -39,7 +39,7 @@ header {
 .sait-nav .link:focus a {
   color: #2196f3;
 }
-.sait-nav .link-header a {
+.link-header a {
   color: #757575;
 }
 .link-header .link:hover,
