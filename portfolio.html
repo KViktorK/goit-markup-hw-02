@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/portfolio-style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Портфолио</title>
   </head>
   <body>
@@ -21,7 +26,9 @@
       </nav>
       <ul class="link-header">
         <li>
-          <a href="info@devstudio.com" class="link">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
         </li>
         <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
@@ -29,24 +36,20 @@
     <!--Основной контент-->
     <main>
       <!--Фыльтри-->
-      <section>
-        <h2>Фыльтри</h2>
+      <section class="section">
+        <h2 class="section-title">Фыльтри</h2>
         <ul class="filter">
-          <li class="link"><a href="">Все</a></li>
-          <li class="link"><a href="">Веб-сайты</a></li>
-          <li class="link"><a href="">Приложения</a></li>
-          <li class="link"><a href="">Дизайн</a></li>
-          <li class="link"><a href="">Маркетинг</a></li>
+          <li class="link button"><a href="">Все</a></li>
+          <li class="link button"><a href="">Веб-сайты</a></li>
+          <li class="link button"><a href="">Приложения</a></li>
+          <li class="link button"><a href="">Дизайн</a></li>
+          <li class="link button"><a href="">Маркетинг</a></li>
         </ul>
-      </section>
-
-      <!--Проекты-->
-      <section>
-        <h2>Проекты</h2>
+        <!--Проекты-->
         <ul class="project">
           <li>
             <img src="./Img/Portfolio/img.png" alt="Технокряк" width="370" />
-            <h4>Технокряк</h4>
+            <h4 class="title">Технокряк</h4>
             <p class="text">Веб-сайт</p>
           </li>
 
@@ -56,7 +59,7 @@
               alt="Постер New Orlean vs Golden Star"
               width="370"
             />
-            <h4>Постер New Orlean vs Golden Star</h4>
+            <h4 class="title">Постер New Orlean vs Golden Star</h4>
             <p class="text">Дизайн</p>
           </li>
 
@@ -66,7 +69,7 @@
               alt="Ресторан Seafood"
               width="370"
             />
-            <h4>Ресторан Seafood</h4>
+            <h4 class="title">Ресторан Seafood</h4>
             <p class="text">Приложения</p>
           </li>
 
@@ -76,7 +79,7 @@
               alt="Проект Prime"
               width="370"
             />
-            <h4>Проект Prime</h4>
+            <h4 class="title">Проект Prime</h4>
             <p class="text">Маркетинг</p>
           </li>
 
@@ -86,7 +89,7 @@
               alt="Проект Boxes"
               width="370"
             />
-            <h4>Проект Boxes</h4>
+            <h4 class="title">Проект Boxes</h4>
             <p class="text">Приложения</p>
           </li>
 
@@ -96,7 +99,7 @@
               alt="Inspiration has no Borders"
               width="370"
             />
-            <h4>Inspiration has no Borders</h4>
+            <h4 class="title">Inspiration has no Borders</h4>
             <p class="text">Веб-сайт</p>
           </li>
 
@@ -106,7 +109,7 @@
               alt="Издание Limited Edition"
               width="370"
             />
-            <h4>Издание Limited Edition</h4>
+            <h4 class="title">Издание Limited Edition</h4>
             <p class="text">Дизайн</p>
           </li>
 
@@ -116,7 +119,7 @@
               alt="Проект LAB"
               width="370"
             />
-            <h4>Проект LAB</h4>
+            <h4 class="title">Проект LAB</h4>
             <p class="text">Маркетинг</p>
           </li>
 
@@ -126,7 +129,7 @@
               alt="Growing Business"
               width="370"
             />
-            <h4>Growing Business</h4>
+            <h4 class="title">Growing Business</h4>
             <p class="text">Приложения</p>
           </li>
         </ul>
