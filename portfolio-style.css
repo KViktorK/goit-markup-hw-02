@@ -1,0 +1,90 @@
+/* Основной цвет #212121 */
+/* Вторычний цвет #757575 */
+/* Цвет белый #ffffff */
+/* Акцент #2196F3 */
+/* Цвет фона #E5E5E5*/
+/* Вторычний цвет фона 2F303A*/
+/* Убирает отсутпи */
+
+/* Текст Roboto 400 500 700 900  */
+/* Текст Raleway 700 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #e5e5e5;
+  --white-color: #ffffff;
+  --footer-background: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+* {
+  margin: 0px;
+}
+/* Body */
+body {
+  color: var(--title-text-color);
+  background-color: var(--background-color);
+}
+
+/* Убирает подчеркивание ссылок */
+a {
+  text-decoration: none;
+}
+
+/* Удаляет точки возли списков */
+li {
+  list-style: none;
+}
+ul {
+  padding-left: 0px;
+}
+
+/* Header */
+header {
+  background-color: var(--white-color);
+}
+/* Цвет и ховери ссылок */
+.sait-nav a {
+  color: var(--title-text-color);
+}
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+  color: var(--accent-color);
+}
+.link-header a {
+  color: var(--primary-text-color);
+}
+.link-header .link:hover,
+.link-header .link:focus {
+  color: var(--accent-color);
+}
+
+/* Logo */
+.logo:hover a {
+  color: var(--accent-color);
+}
+.logo {
+  color: var(--accent-color);
+}
+
+/* Filter-фыльтри */
+.filter .link a {
+  color: var(--title-text-color);
+}
+.filter .link:hover a {
+  color: var(--white-color);
+}
+.project .text {
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+.footer {
+  color: var(--white-color);
+  background-color: var(--footer-background);
+}
+.link-footer .link a {
+  color: var(--footer-link-color);
+}

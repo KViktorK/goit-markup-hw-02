@@ -152,10 +152,16 @@ ul {
 .filter-title {
   color: var(--title-text-color);
 }
-.filter .link a {
+.filter .link {
   color: var(--title-text-color);
   background-color: var(--primary-background-color);
 }
+.filter .link:hover,
+.filter .link:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
 .project .title {
   color: var(--title-text-color);
   font-weight: 700;
