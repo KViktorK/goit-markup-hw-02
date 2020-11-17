@@ -1,6 +1,6 @@
 /* Навигация
-    1)index
-    2)portfolio*/
+    1)index.html
+    2)portfolio */
 /* Основной цвет #212121 */
 /* Вторычний цвет #757575 */
 /* Цвет белый #ffffff */
@@ -46,7 +46,9 @@ ul {
 }
 
 /* Header */
-
+header {
+  letter-spacing: 0.02em;
+}
 /* Цвет и ховери ссылок */
 
 /* SAIT-nav */
@@ -56,6 +58,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
 }
+
 .sait-nav .link:hover,
 .sait-nav .link:focus {
   color: var(--accent-color);
@@ -68,20 +71,19 @@ ul {
   font-size: 14px;
   line-height: 1.14;
 }
+
 .link-header .link:hover,
 .link-header .link:focus {
   color: var(--accent-color);
 }
 
 /* Logo */
-.logo:hover a {
-  color: var(--accent-color);
-}
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -149,19 +151,26 @@ ul {
 
 /* PORTFOLIO.HTML */
 /* Filter-фыльтри */
+
 .filter-title {
   color: var(--title-text-color);
 }
 .filter .link {
   color: var(--title-text-color);
   background-color: var(--primary-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .filter .link:hover,
 .filter .link:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-
+/* Project */
+.project {
+  letter-spacing: 0.06em;
+}
 .project .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -171,4 +180,5 @@ ul {
 .project .text {
   font-size: 16px;
   line-height: 1.8;
+  letter-spacing: 0.03em;
 }
